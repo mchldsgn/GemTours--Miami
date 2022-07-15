@@ -1,0 +1,179 @@
+<!-- Module 2 Scrimba Project.
+    I had to match this Figma design: https://www.figma.com/file/2QuGfAOcHaZJ6aHXfuamnK/Hometown-Homepage?node-id=0%3A1
+but decided to create a travel site. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>GEMTOURS - Welcome to The Magic City!</title>
+    <link rel="icon" type="image/x-icon" href="/images/gemtours.png">
+</head>
+<body>
+    
+    <!-- NAVIGATION SECTION -->
+    <div class="navigation">
+            <div class="navbar">
+                <img src="images/GemTours Logo.png" alt="GEMTOURS logo with pink diamond shape" class="logo">
+                <nav>
+                    <ul>
+                        <li><a href="#"> Home</a></li>
+                        <li><a href="#about-page"> About</a></li>
+                        <li><a href="#explore-page"> Explore</a></li>
+                        <li><a href="#guide-page"> Meet Your Guides</a></li>
+                        <li><a href="#"> Gallery</a></li>
+                        <li><a href="#"> More<img src="images/arrow.png"></a></li> 
+                        </ul> 
+                    </nav>
+                    <img src="images/contact.png" alt="GEMTOURS contact information to book a trip" class="contact-info">
+            </navbar>
+    </div>
+
+    <!-- HEADER SECTION -->
+    <div class="header">
+        <img src="images/Miami Logo.png" alt="GEMTOURS Miami title" class="title">
+        <button class="btn"><a href="#about-page">Learn More</a></button>
+    </div>
+    
+    <!-- HERO SECTION -->
+    <div class="about" id="about-page">
+        <div class="about-content">
+            <h3>About</h3>
+            <p>Sunbathe at its pristine beaches, party the night away with its non-stop nightlife or bask in fantastic warm weather.</h2>
+            Teeming with art, culture, beaches, delicious dishes, and peculiar facts - Miami aka <font color=#FF007A><i><b>The Magic City</i></b></font> is known for its mind-blowing skyline, luxurious shopping malls, Art Deco architecture, and high-end hotels. <br><br>
+            One of the best ways to get the most out of your vaction, is to plan at least 3 days in Miami as it offers tons of things to do.<br><br>
+            Check some of the most popular destinations to visit on your vacation! <br><br><br><a href="#explore-page"><img src="images/arrow.png"> </a></p>
+        </div>
+    </div>
+    
+ 
+    <!-- ACTIVITIES SECTION -->
+    <div class="destination" id="explore-page">
+        <h3>Popular Destinations</h3>
+            <div class="choice-image">
+                <img src="images/crandonpark.jpg" alt="Crandon Park Beach">
+                <img src="images/wynwood.jpg" alt="Wynwood Walls Entrance">
+                <img src="images/liv.jpg" alt="Loud Luxury at LIV Nightclub Miami">
+            </div>
+
+            <div class="destination-title">
+                <p>Crandon Park Beach</p>
+                <p>Wynwood Wall</p>
+                <p>LIV</p>
+            </div>
+        
+            <div class="destination-info">
+                <p>Voted one of the <font color=#FF007A><b>10 best beaches</b></font> in the United States, Crandon Park Beach can be found in Biscayne Bay.<br><br>
+                    The beach is divided into two different areas; the northern part, with more waves,
+                    is frequented by surfers while the south, with white sands and calm waters, is the part most popular with families and couples.</p>
+                
+                <p>Open to the public, free of charge, the Wynwood Walls was established in 2009 by the legendary placemaker and visionary Tony Goldman as an outdoor museum of international street art.<br><br>
+                    Miami's now world renowned open air <font color=#FF007A><b>"museum of the streets"</b></font> continues to attract visitors from around the world and currently encompasses more than 40 dazzling,
+                    cutting-edge murals created by respected street artists from Asia, Europe, Latin America and the United States.</p>
+
+                <p><font color=#FF007A><b>LIV</b></font> at the <font color=#FF007A><b>Fontainebleau Miami Beach</b></font> offers its guests the definitive Miami nightlife experience.
+                    The quintessential nightspot fuses the appeal of an ultra exclusive lounge and a high-energy nightclub.
+                    LIV is home to celebrities, VIP's and Miami's local party crowd. <br><br>With 22,000 square feet of striking architectural design and lavish decor,
+                    the stage is set for the ultimate experience in high-end entertaining.</p>
+            </div>
+    </div>
+
+    <!-- GUIDE SECTION -->
+    <div class="guides" id="guide-page">
+        <h3>Meet Your Guides</h3>
+        <div class="guide-info">
+            <div class="guide-photos">
+                <img src="images/shahad.jpg"alt="Young Iranian woman holding drink.">
+                <img src="images/leo.jpg"alt="Young, smiling man sitting in tall grass.">
+             </div>
+             
+             <div class="names">
+                <p>Shahad</p>
+                <p>Leo</p>
+             </div>
+            
+             <div class="quotes">
+                <p><i>"I studied at Florida International Univerity, and lived in Miami for 8 years, so I can show you all of its best parts and hidden secrets."</i></p>
+                <p><i>"I was born and raised in Miami, so I can show you all of its best parts and hidden secrets."</i></p>
+                
+            </div>
+        </div>
+    </div>   
+
+   <!-- NEWSLETTER -->
+   <div class="newsletter">
+    <h5 class="nl-header">Get The Latest News and Special Offers</h5>
+        <div class="nl-content">
+            <p>Get hot holiday savings, travel inspo,
+                and expert tips & tricks straight to your inbox.</p>
+            <input type="email" placeholder="Enter your email address" id="nl-email">
+            <input  type="submit" value="Sign Up" id="btn-nl">
+            <!-- <button class="btn-nl">Sign Up</button> -->
+        </div>
+   </div>
+
+    <!-- FOOTER -->
+    <div class="footer">
+        <div class="footer-content">
+            
+            <div class="footer-info"><img src="images/GemTours Logo.png"><br></div>
+
+            <div class="footer-1">
+                <h3 class="footer-header">Site Links</h3>
+                <a href="#"> Home</a>
+                <a href="#"> About</a>
+                <a href="#"> Explore</a>
+                <a href="#"> Tours</a>
+                <a href="#"> Contact Us</a>
+                <a href="#"> FAQ</a>
+                <a href="#"> Stories</a>
+                <a href="#"> Jobs</a>
+                <a href="#"> Partners & Sponsors</a>
+                <a href="#"> Privacy Policy</a>
+                <a href="#"> Terms Of Service</a>
+            </div>
+
+            <div class="footer-2">
+                <h3 class="footer-header">Vacation Type</h3>
+                <a href="#"> Adult Only (21+)</a>
+                <a href="#"> All Inclusive</a>
+                <a href="#"> Honeymoon</a>
+                <a href="#"> Group Travel</a>
+                <a href="#"> Solo Travel</a>
+                <a href="#"> Casino</a>
+                <a href="#"> Luxury</a>
+                <a href="#"> Golf & Spa</a>
+                <a href="#"> Family (10+)</a>
+                <a href="#"> Guided Tours</a>
+                <a href="#"> Camping & Hiking</a>
+            </div>
+
+            <div class="footer-3">
+                <h3 class="footer-header">Destinations</h3>
+                <a href="#"> Las Vegas</a>
+                <a href="#"> Miami</a>
+                <a href="#">Alaska</a>
+                <a href="#">The Bahamas</a>
+                <a href="#">Dominican Republic</a>
+                <a href="#">Austrailia</a>
+                <a href="#">Thailand</a>
+                <a href="#">Mexico</a>
+                <a href="#">Greece</a>
+                <a href="#">Iceland</a>
+                <a href="#">England</a>
+            </div>
+
+            
+
+        </div>
+
+    </div>
+
+    <p> © GEMTOURS 2022, All rights reserved. Check out more projects
+        <a href="https://scrimba.com/learn/htmlandcss" target="_blank">here.</a></p>
+
+</body>
+</html>
