@@ -1,0 +1,2 @@
+# GemTours--Miami
+Scrimba Hometown Homepage Project in which we had to create this page: https://www.figma.com/file/2QuGfAOcHaZJ6aHXfuamnK/Hometown-Homepage I decided to turn the project into a fictional travel and tour company, GemTours. Everything was created in Figma prior to coding. Figma protoype can be seen here: https://www.figma.com/proto/BWxo9fEamA1u2LO1cXcvBa/Hometown-Homepage---GemTours---Miami?node-id=10310%3A2&amp;scaling=min-zoom&amp;page-id=0%3A1&amp;starting-point-node-id=10310%3A2
