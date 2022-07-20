@@ -25,7 +25,6 @@ html {
     border: 6px solid transparent;
     background-clip: content-box;
   }
-  
 
 body {
     font-family: 'montserrat', sans-serif;
@@ -53,6 +52,13 @@ h5 {
     font-size: 25px;
 }
 
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+/*Header + Navigation*/
+
 .navigation {
     width: 100%;
     height: 100vh;
@@ -65,6 +71,9 @@ h5 {
     align-items: center;
     background: rgb(255,255,255);
     background: linear-gradient(180deg, rgb(255, 255, 255) 25%,  rgba(255, 255, 255, 0.945) 53%, rgba(255, 255, 255, 0.911) 75%, rgba(255, 255, 255, 0) 100%);
+    position: fixed;
+    top: 0;
+    width: 100%
 }
 
 
@@ -124,6 +133,7 @@ nav ul li a:hover{
     text-decoration: none;
  }
 
+ /*Learn More btn*/
 .btn {
     padding: 10px 20px;
     background: #FF007A;
@@ -135,12 +145,13 @@ nav ul li a:hover{
 }
 
 .btn:hover {
-    background: #ff87c1;
-    color: #FF007A;
+    color:white;
+    background: #ad0154;
     -webkit-transition: all 1s ease;
     transition: all 1s ease;
 }
 
+/*About*/
 .about {
     display: flex;
     flex-direction: column;
@@ -161,6 +172,7 @@ nav ul li a:hover{
     height: 100vh;
 }
 
+/*Actvities*/
 .destination {
     display: flex;
     flex-direction: column;
@@ -214,6 +226,7 @@ nav ul li a:hover{
 
 }
 
+/*Guides*/
 .guides {
     display: flex;
     flex-direction: column;
@@ -278,6 +291,24 @@ nav ul li a:hover{
     color: white;
 }
 
+.gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+.gallery a:hover{
+    color: #FF007A;
+    font-weight: bold;
+}
+
+#gly-header{
+    color: #FF007A;
+}
+
+
+/*Newsletter*/
 .newsletter {
     display: flex;
     flex-direction: column;
@@ -324,14 +355,14 @@ nav ul li a:hover{
 }
 
 #btn-nl:hover {
-    background: #ff87c1;
-    color: #FF007A;
+    background: #ad0154;
     -webkit-transition: all 1s ease;
     transition: all 1s ease;
     cursor: pointer;
     text-decoration: none;
 }
 
+/*Footer*/
 .footer {
     background-color: #222222;
 }
@@ -392,4 +423,15 @@ nav ul li a:hover{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+}
+
+.footer-end {
+    font-size: 12px;
+    font-weight: 600;
+    padding: 15px;
+}
+
+.footer-end a:hover {
+    font-weight: bold;
+    color: #FF007A;
 }
