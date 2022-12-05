@@ -1,2 +1,15 @@
-# GemTours--Miami
-Scrimba Hometown Homepage Project in which we had to create this page: https://www.figma.com/file/2QuGfAOcHaZJ6aHXfuamnK/Hometown-Homepage I decided to turn the project into a fictional travel and tour company, GemTours. Everything was created in Figma prior to coding. Figma protoype can be seen here: https://www.figma.com/proto/BWxo9fEamA1u2LO1cXcvBa/Hometown-Homepage---GemTours---Miami?node-id=10310%3A2&amp;scaling=min-zoom&amp;page-id=0%3A1&amp;starting-point-node-id=10310%3A2
+<center>
+
+<h3><text color=pink>Gem Tours -- Miami</text></h3>
+<h6>Redesigned Scrimba Hometown Homepage project.<br><br>Conducted small competitive analysis, created prototype, UI design system and developed a tour and travel agency page.<br><br>
+View the live site <a href="https://mchldsgn.github.io/GemTours--Miami"/><u><em>here</em></u>.</a>
+</h6>
+
+![Hometown Homepage (2)](https://user-images.githubusercontent.com/96479540/205562864-4c9ec268-7f1c-4024-8a47-2263191eb599.png)
+![Group 1 (2)](https://user-images.githubusercontent.com/96479540/205560907-ee9568b1-3ff1-4f27-8b93-bf6af2fe8775.png)
+![Destinations](https://user-images.githubusercontent.com/96479540/205560943-385ad9f0-e0f3-4c44-a5d6-00ff201cfedb.png)
+
+
+![Hometown Info Page (2)](https://user-images.githubusercontent.com/96479540/205562379-f416fe1d-cc65-46fb-bb65-a98ae052b304.png)
+
+</center>
