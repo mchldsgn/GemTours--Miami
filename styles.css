@@ -154,6 +154,11 @@ nav ul li a:hover{
     transition: all 1s ease;
 }
 
+@media (min-width : 576px) {
+    main{max-width: 540px;}
+}
+
+
 /*About*/
 .about {
     display: flex;
