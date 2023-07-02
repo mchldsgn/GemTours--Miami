@@ -300,6 +300,8 @@ nav ul li a:hover{
     color: white;
 }
 
+
+/*Gallery*/
 .gallery {
     display: flex;
     flex-direction: column;
